@@ -82,7 +82,7 @@ header {
 }
 .register-button {
   background: darkorchid;
-  margin: vh auto;
+  margin: 2vh auto;
   color: white;
   height: 5vh;
   width: 10vw;

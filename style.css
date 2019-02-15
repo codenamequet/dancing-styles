@@ -28,7 +28,7 @@ header {
 .header-p {
   color: darkorchid;
   margin-top: 9vh;
-  margin-left: -22vw;
+  margin-left: -20.5vw;
 }
 .yellow-rectangle {
   background: yellow;
@@ -82,7 +82,7 @@ header {
 }
 .register-button {
   background: darkorchid;
-  margin: 2vh auto;
+  margin: vh auto;
   color: white;
   height: 5vh;
   width: 10vw;

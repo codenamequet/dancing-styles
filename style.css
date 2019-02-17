@@ -53,7 +53,7 @@ header {
 .content {
   background: white;
   margin: 0 auto;
-  height: 135vh;
+  height: 140vh;
   width: 80vw;
 }
 .about-header-container {
@@ -82,9 +82,28 @@ header {
 }
 .register-button {
   background: darkorchid;
-  margin: 2vh auto;
+  /* margin: 2vh auto; */
+  margin-top: 2vh;
   color: white;
   height: 5vh;
   width: 10vw;
   /* border-radius: 100% */
 }
+.flex-container {
+  display: flex;
+  justify-content: flex-end; 
+}
+.zumba-logo {
+  height: 10vh;
+  width: 15vw;
+  margin-left: 18vw;
+  margin-right: 2vw;
+}
+/* .button-container {
+  display: flex;
+  justify-content: center;
+} */
+/* .zumba-container {
+  display: flex;
+  justify-content: right;
+} */

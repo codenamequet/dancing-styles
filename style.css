@@ -6,35 +6,31 @@ header {
 }
 .logo {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  margin-left: 9vw;
+  justify-content: center;
 }
 .ds-logo {
   height: 75vh;
   width: 80vw;
 }
-.header-h1  {
+/* .header-h1  {
   color: darkorchid;
   margin-top: 3vh;
   padding-left: 1vw;
+} */
+.bio-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 .temi{
-  height: 50vh;
-  width: 25vw;
-  /* margin: 0 auto; */
-  margin-left: 27vw;
+  height: 70vh;
+  width: 45vw;
 }
-.header-p {
-  color: darkorchid;
-  margin-top: 9vh;
-  margin-left: -20.5vw;
+.bio-paragraph {
+  font-size: 24px;
 }
-.yellow-rectangle {
-  background: yellow;
-  margin: 0 auto;
-  height: 1vh;
-  width: 80vw;
+.bio-quote {
+  font-size: 18px;
 }
 .menu-bar {
   display: flex;
@@ -52,25 +48,9 @@ header {
 }
 .content {
   background: white;
-  margin: 0 auto;
+  margin: 2vh auto;
   height: 140vh;
   width: 80vw;
-}
-.about-header-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  font-size: 5vh;
-}
-.about-p1-container {
-  width: 90%;
-  margin: 0 auto;
-  font-size: 3vh
-}
-.about-p2-container {
-  max-width: 90%;
-  margin: 0 auto;
-  font-size: 3vh
 }
 .call-to-action {
   text-align: center;
@@ -99,11 +79,3 @@ header {
   margin-left: 18vw;
   margin-right: 2vw;
 }
-/* .button-container {
-  display: flex;
-  justify-content: center;
-} */
-/* .zumba-container {
-  display: flex;
-  justify-content: right;
-} */

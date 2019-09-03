@@ -1,11 +1,14 @@
-body {
-  background: url('background.jpg');
+html {
+  /* background: url('background.jpg'); */
+  background: url('assets/images/purple-tri.jpg') no-repeat center center fixed;
+  background-size: cover;
 }
 header {
   margin-top: 1vh;
+  margin-bottom: -2vh;
 }
 .ds-logo {
-  height: 75vh;
+  height: 100vh;
   width: 80vw;
 }
 /* .header-h1  {
@@ -24,9 +27,9 @@ header {
   flex-direction: row;
   justify-content: space-around;
   background: darkorchid;
-  margin: 0 auto;
+  margin-left: 9vw;
   height: 7vh;
-  width: 80vw;
+  width: 81.2vw;
 }
 .menu-bar a {
   color: white;
@@ -35,22 +38,110 @@ header {
 }
 .content {
   background: white;
-  margin: 2vh auto;
+  margin: 0 auto;
   height: 100%;
   width: 81.5%;
 }
 .call-to-action {
+  background: black;
+  display: flex;
+}
+.location-card {
+  background: darkorchid;
+  width: 22vw;
+  height: 35vh;
+  margin: 1vh 2vw;
+  /* display: inline-block; */
+  color: white;
   text-align: center;
+}
+.hours-card {
+  background: darkorchid;
+  width: 22vw;
+  height: 35vh;
+  margin: 1vh 2vw;
+  /* display: inline-block; */
+  color: white;
+  text-align: center;
+  font-size: 2vh;
+}
+.zumba-card {
+  background: darkorchid;
+  width: 22vw;
+  height: 35vh;
+  margin: 1vh 2vw;
+  /* display: inline-block; */
+  color: white;
+  display: flex;
+}
+.zumba-card img {
+  width: 22vw;
+  margin: 10vh auto;
+}
+.icon {
+  font-size: 48px
+}
+.register-container {
+  /* background: #000; */
+  background: url('assets/images/purple-lights.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  /* margin-top: -4.5vh; */
+  margin-bottom: -3vh; 
+  padding-top: 4.5vh;
+}
+.register-container h2 {
+  font-size: 30px;
+  text-align: center;
+}
+.register-container p {
+  text-align: center
 }
 .register-button {
   background: darkorchid;
   margin-top: 2vh;
-  color: white;
+  color: #fff;
   height: 5vh;
   width: 10vw;
+  margin-bottom: 1vw;
 }
 .zumba-logo {
   height: 15vh;
   width: 25vw;
   margin-top: 5vh;
+}
+.youtube {
+  /* width: 81vw; */
+  /* background: purple;
+  margin-left: 9vw; */
+}
+.video-player iframe{
+  margin-top: -1.2vh;
+  margin-left: 9.2vw;
+  width: 80.8vw;
+  height: 60vh;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #333;
+  color: #fff;
+  height: 5vh;
+  width: 80.8vw;
+  margin-top: -.5vh;
+  margin-left: 9.2vw;
+  padding-left: 2vw;
+}
+.facebook img {
+  height: 5vh;
+  width: 5vw;
+}
+.instagram img {
+  height: 5vh;
+  width: 5vw;
+}
+.youtube img {
+  height: 5vh;
+  width: 5vw;
 }

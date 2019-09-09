@@ -1,30 +1,29 @@
 html {
-  /* background: url('background.jpg'); */
   background: url('assets/images/purple-tri.jpg') no-repeat center center fixed;
   background-size: cover;
 }
-header {
-  margin-top: 1vh;
-  margin-bottom: -2vh;
+main {
+  width: 100%;
+}
+.logo-container {
+  display: flex;
+  justify-content: center;
 }
 .ds-logo {
-  height: 100vh;
-  width: 80vw;
+  height: 100%;
+  width: 80%;
 }
-.bio-paragraph {
-  font-size: 24px;
-}
-.bio-quote {
-  font-size: 18px;
+.menu {
+  display: flex;
+  justify-content: center;
 }
 .menu-bar {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   background: darkorchid;
-  margin-left: 9vw;
   height: 7vh;
-  width: 81.2vw;
+  width: 80%
 }
 .menu-bar a {
   color: white;
@@ -35,8 +34,22 @@ header {
   background: white;
   margin: 0 auto;
   height: 100%;
-  width: 81.5%;
+  width: 80%;
 }
+.bio-container {
+  display: flex;
+  justify-content: space-between;
+}
+.temi {
+  width: 40%;
+}
+.bio-paragraph {
+  font-size: 24px;
+}
+.bio-quote {
+  font-size: 18px;
+}
+
 .call-to-action {
   background: black;
   display: flex;
@@ -46,7 +59,6 @@ header {
   width: 22vw;
   height: 35vh;
   margin: 1vh 2vw;
-  /* display: inline-block; */
   color: white;
   text-align: center;
 }
@@ -80,8 +92,6 @@ header {
   background: url('assets/images/purple-lights.jpg') no-repeat center center fixed;
   background-size: cover;
   color: #fff;
-  /* margin-top: -4.5vh; */
-  margin-bottom: -3vh; 
   padding-top: 4.5vh;
 }
 .register-container h2 {
@@ -92,42 +102,36 @@ header {
   text-align: center
 }
 .register-button {
+  display: block;
   background: darkorchid;
-  margin-top: 2vh;
+  margin: 0 auto;
   color: #fff;
   height: 5vh;
-  width: 10vw;
-  margin-bottom: 1vw;
-}
-.zumba-logo {
-  height: 15vh;
-  width: 25vw;
-  margin-top: 5vh;
+  width: 15%
 }
 .youtube {
-  /* width: 81vw; */
-  /* background: purple;
-  margin-left: 9vw; */
+  display: flex;
+  justify-content: center;
+  width: 100%
 }
 .video-player iframe{
-  margin-top: -1.2vh;
-  margin-left: 9.2vw;
-  width: 80.8vw;
+  width: 78vw;
   height: 60vh;
 }
-.footer {
+footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0 auto;
   background: #333;
-  color: #fff;
   height: 5vh;
-  width: 80.8vw;
-  margin-top: -.5vh;
-  margin-left: 9.2vw;
+  width: 80%;
+}
+.footer-info {
+  color: #fff;
   padding-left: 2vw;
 }
-.facebook img {
+/* .facebook img {
   height: 5vh;
   width: 5vw;
 }
@@ -138,4 +142,33 @@ header {
 .youtube img {
   height: 5vh;
   width: 5vw;
+} */
+
+@media only screen and (max-width: 768px) {
+  .bio-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .temi {
+    width: 80vw;
+    height: 50vh;
+  }
+  .call-to-action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card {
+    display: block;
+    width: 80%;
+    margin: 1vh auto;
+  }
+  .zumba-card img {
+    width: 100%;
+    margin: 10vh auto;
+  }
+  .register-button {
+    width: 30%
+  }
 }

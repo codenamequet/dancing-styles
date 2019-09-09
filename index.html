@@ -6,54 +6,53 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Dancin Styles Fitness</title>
   <!-- Compiled and minified CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <link href="style.css" rel="stylesheet">
   <link href="../../../Downloads/css/all.css" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/cf7e7c8c46.css">
 </head>
 <body>
   <header>
-    <section class="logo-container row">
-      <img class="ds-logo col s12 m10 offset-m1" src="dancin-styles-logo.jpg" alt="picture of a globe">
-      <!-- <h1 class="header-h1">Dancin Styles Fitness</h1>
-      <p class="header-p">Dancing to a better you!</p> -->
+    <section class="logo-container">
+      <img class="ds-logo" src="dancin-styles-logo.jpg" alt="dancin styles fitness logo">
     </section>
   </header>
 
   <main>
-    <section class="menu-bar"> 
-      <a>HOME</a>
-      <a>ABOUT</a>
-      <a>CLASSES</a>
-      <a>GALLERY</a>
-      <a>LADY STYLES HAIR</a>
-      <!-- TODO: create white background when clicking a tag -->
-    </section>
+    <section class="menu">
+      <div class="menu-bar"> 
+        <a href="#">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#classes">CLASSES</a>
+        <!-- <a>GALLERY</a> -->
+        <a href="https://www.ladystyleshairdesign.com" target="_blank">LADY STYLES HAIR</a>
+        <!-- TODO: create white background when clicking a tag -->
+      </div>
+  </section>
     
     <section class="content">
-      <div class="bio-container row">
-        <img src="temi.png" alt="Temi Roberts" class="temi col s12 m6" />
-        <section class="bio col s12 m6">
+      <div id="about" class="bio-container row">
+        <img src="temi.png" alt="Temi Roberts" class="temi" />
+        <section class="bio">
           <p class="bio-paragraph">Temi Roberts is your AFAA certified Zumba and Dancehall fusion instructor who has always had a passion for dance and is now offering classes with various world rhythms from African, Caribbean and hip hop music that'll keep you moving and melting the calories away. Get signed up today for a fun, lusty, vibrant experience.
           </p> 
           <q class="bio-quote">My mission is to help others focus on the vast benefits of dancing while building a community of people who can share positive vibes and energy.</q>
         </section>
       </div>
       
-      <section class="call-to-action">
-        <div class="location-card">
+      <section id="classes" class="call-to-action">
+        <div class="card location-card">
           <h2>Location</h2>
           <span class="fas fa-map-marker-alt icon"></span>
           <p>Extravadance, 44 Washington Blvd, Laurel, MD 20707</p>
         </div>  
-        <div class="hours-card">
+        <div class="card hours-card">
           <h2>Hours</h2>
           <span class="far fa-clock icon"></span>
           <p>Saturdays: 10:30AM - 11:30AM</p>
           <p>Dancehall Fusion every first Saturday:</p> 
           <p>10:30AM - 12:30PM</p>
         </div>
-        <div class="zumba-card">
+        <div class="card zumba-card">
           <img src="zumba-logo.jpg" alt="zumba logo" class="zumba-logo">
         </div>
       </section>
@@ -66,16 +65,6 @@
           <a href="https://www.schedulicity.com/scheduling/DSFPHW" target="_blank"><button class="register-button col s10 offset-s1 m2 offset-m5">REGISTER HERE</button></a>
         </div>
       </section>
-
-      <!-- <div class="flex-container"> -->
-      
-      
-      <!-- <div class="zumba-container">
-        <img src="zumba-logo.jpg" alt="zumba logo" class="zumba-logo">
-      </div> -->
-      <!-- </div> -->
-
-      <!-- <p>Dancing to a better you!</p> -->
     </section>
     <section class="youtube">
       <div class="video-player">
@@ -83,18 +72,20 @@
       </div>  
     </section>
 
+
     <footer class="footer">
       <div class="footer-info">
-        <p>&copy Dancin Styles 2019 | Site created and maintained by Marquet Reid (@quetcodesfire) | All Rights Reserved</p>
+        <p>&copy Dancin Styles 2019 | Site created and maintained by Marquet Reid | All Rights Reserved</p>
       </div>
 
       <div class="social-media-logos">
-        <a href="http://facebook.com/" class="social-media-logo facebook"><img src="assets/images/fb-icon.png" /></a>
+        <!-- <a href="http://facebook.com/" class="social-media-logo facebook"><img src="assets/images/fb-icon.png" /></a>
         <a href="http://instagram.com/" class="social-media-logo instagram"><img src="assets/images/ig-icon.png" /></a>
-        <a href="http://youtube.com/" class="social-media-logo youtube"><img src="assets/images/youtube-logo.png" /></a>
+        <a href="http://youtube.com/" class="social-media-logo youtube"><img src="assets/images/youtube-logo.png" /></a> -->
       </div>
     </footer>
   </main>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
   <script src="https://use.fontawesome.com/22bfd60e8c.js"></script>
   <script src="../../../Downloads/js/all.js"></script>
   <script src="script.js"></script>

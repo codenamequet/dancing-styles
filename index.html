@@ -19,15 +19,21 @@
 
   <main>
     <section class="menu">
-      <div class="menu-bar"> 
-        <a href="#">HOME</a>
-        <a href="#about">ABOUT</a>
-        <a href="#classes">CLASSES</a>
-        <!-- <a>GALLERY</a> -->
-        <a href="https://www.ladystyleshairdesign.com" target="_blank">LADY STYLES HAIR</a>
-        <!-- TODO: create white background when clicking a tag -->
+      <div class="menu-bar">
+          <div class="mobile-menu">
+              <a class="fas fa-bars" href="javascript:void(0)" onclick="toggleNavDropdown()"></a>
+            </div>
+        <div class="menu-bar-links">
+          <a href="#">HOME</a>
+          <a href="#about">ABOUT</a>
+          <a href="#classes">CLASSES</a>
+          <!-- <a>GALLERY</a> -->
+          <a href="https://www.ladystyleshairdesign.com" target="_blank">LADY STYLES HAIR</a>
+          <!-- TODO: create white background when clicking a tag -->
+        </div>
       </div>
-  </section>
+    </section>
+    
     
     <section class="content">
       <div id="about" class="bio-container row">

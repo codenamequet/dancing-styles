@@ -1,8 +1,9 @@
-// function registerRedirect() {
-//   const registerButton = document.querySelector('.register-button')
-//   registerButton.addEventListener('click', () => {
-//     location.href='https://www.schedulicity.com/scheduling/DSFPHW'
-//   })  
-// }
-
-// registerRedirect()
+function toggleNavDropdown () {
+  console.log('click is working')
+  const links = document.getElementsByClassName('menu-bar-links')[0]
+  if (links.style.display === 'block') {
+    links.style.display = "none"
+  } else {
+    links.style.display = "block"
+  }
+}

@@ -18,18 +18,22 @@ main {
   justify-content: center;
 }
 .menu-bar {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
   background: darkorchid;
   height: 7vh;
   width: 80%
 }
 .menu-bar a {
   color: white;
-  padding-right: .5vw;
-  margin: auto;
   text-decoration: none;
+}
+.menu-bar-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; /* align items doens't work for some reason*/
+}
+.mobile-menu {
+  display: none;
 }
 .content {
   background: white;
@@ -138,6 +142,33 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
+  .menu-bar-links {
+    display: none;
+  }
+  .menu-bar-links a {
+    color: #fff;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    position: relative;
+    background: darkorchid;
+  }
+  .mobile-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 7vh;
+    width: 100%;
+  }
+  .fa-bars {
+    font-size: 5vh;
+    background: #000;
+    display: block;
+    position: absolute;
+    color: #fff;
+    height: 7vh;
+    /* width: 50%; */
+  }
   .bio-container {
     display: flex;
     flex-direction: column;

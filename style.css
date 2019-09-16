@@ -153,6 +153,9 @@ footer {
     position: relative;
     background: darkorchid;
   }
+  .menu-bar-links a:hover {
+    background: black;
+  }
   .mobile-menu {
     display: flex;
     flex-direction: row;

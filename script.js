@@ -7,3 +7,5 @@ function toggleNavDropdown () {
     links.style.display = "block"
   }
 }
+
+// if a menu link is pressed links.style.display = "none"

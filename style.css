@@ -159,18 +159,17 @@ footer {
   .mobile-menu {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-end;
     height: 7vh;
-    width: 100%;
   }
   .fa-bars {
-    font-size: 5vh;
+    font-size: 6vh;
     background: #000;
     display: block;
     position: absolute;
     color: #fff;
     height: 7vh;
-    /* width: 50%; */
+    /* width: 300px; */
   }
   .bio-container {
     display: flex;

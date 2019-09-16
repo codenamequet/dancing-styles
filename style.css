@@ -22,15 +22,15 @@ main {
   height: 7vh;
   width: 80%
 }
-.menu-bar a {
-  color: white;
-  text-decoration: none;
-}
 .menu-bar-links {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center; /* align items doens't work for some reason*/
+  align-content: center;
+}
+.menu-bar-links a {
+  color: white;
+  text-decoration: none;
 }
 .mobile-menu {
   display: none;
@@ -94,10 +94,15 @@ main {
   font-size: 48px
 }
 .register-container {
-  background: url('assets/images/purple-lights.jpg') no-repeat center center fixed;
+  /* background: url('assets/images/purple-lights.jpg') no-repeat center center fixed; */
+  background: url('assets/images/dancin-styles-class2.jpg') no-repeat center center;
   background-size: cover;
   color: #fff;
-  padding-top: 4.5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
 }
 .register-container h2 {
   font-size: 30px;
@@ -112,7 +117,8 @@ main {
   margin: 0 auto;
   color: #fff;
   height: 5vh;
-  width: 15%
+  width: 15%;
+  margin-top: 5vh
 }
 .youtube {
   display: flex;
@@ -135,6 +141,10 @@ footer {
 .footer-info {
   color: #fff;
   padding-left: 2vw;
+}
+.footer a {
+  color: #fff;
+  text-decoration: none;
 }
 .icon {
   display: inline;
@@ -196,5 +206,8 @@ footer {
   }
   .register-button {
     width: 30%
+  }
+  .social-media-logo {
+    display: none;
   }
 }

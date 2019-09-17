@@ -20,13 +20,14 @@ main {
 .menu-bar {
   background: darkorchid;
   height: 7vh;
-  width: 80%
+  width: 80%;
 }
 .menu-bar-links {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-content: center;
+  align-items: center; /* not working */
+  padding-top: 2.5vh; /* temporary solution until align-items works */
 }
 .menu-bar-links a {
   color: white;
